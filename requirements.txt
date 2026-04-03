@@ -10,3 +10,4 @@ langchain-google-genai
 python-dotenv
 pypdf
 httpx
+sentence-transformers
