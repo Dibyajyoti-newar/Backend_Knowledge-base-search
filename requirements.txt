@@ -4,10 +4,9 @@ python-multipart
 pydantic
 langchain-community
 langchain-text-splitters
-langchain-huggingface
 langchain-chroma
 langchain-google-genai
 python-dotenv
 pypdf
 httpx
-sentence-transformers
+
