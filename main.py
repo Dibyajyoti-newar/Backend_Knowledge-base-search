@@ -39,7 +39,7 @@ app.add_middleware(
 UPLOAD_DIR = "temp_uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
+embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 vector_store = Chroma(embedding_function=embeddings, persist_directory="./chroma_db")
 
 
